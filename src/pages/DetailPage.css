@@ -1,0 +1,91 @@
+#detailWholecontainer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(241, 236, 198);
+  min-height: 100vh;
+}
+
+#contentBox {
+  margin: 20px;
+  height: 70px;
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+}
+
+#favouriteButton {
+  background: #3498db;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  margin-right: 1px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: white;
+  border: transparent;
+}
+
+#favouriteButton:hover {
+  background: #1e78b4;
+}
+
+#editButton {
+  background: #3498db;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  margin-right: 5px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: white;
+  border: transparent;
+}
+
+#editButton:hover {
+  background: #1e78b4;
+}
+
+#deleteButton {
+  background: #3498db;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  margin-right: 1px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: white;
+  border: transparent;
+}
+
+#deleteButton:hover {
+  background: #1e78b4;
+}
+
+#description {
+  word-break: break-all;
+  font-size: 18px;
+  color: #969251;
+  display: flex;
+  justify-content: center;
+}
+
+#webAndEmail {
+  font-size: 18px;
+  color: #969251;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 789px) {
+  #contentBox {
+    margin: 20px;
+    height: 60px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+}

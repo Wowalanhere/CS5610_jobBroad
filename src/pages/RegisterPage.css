@@ -1,0 +1,51 @@
+#registerWholecontainer {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(241, 236, 198);
+  min-height: 100vh;
+}
+
+#registerHint {
+  color: #777350;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 24px;
+  margin-bottom: 5px;
+}
+
+#registerInput {
+  height: 37px;
+  width: 400px;
+  border-radius: 3px;
+  font-size: 15px;
+  border: transparent;
+}
+
+#registerButton {
+  background: #3498db;
+  height: 30px;
+  width: 100px;
+  border-radius: 3px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  color: white;
+  border: transparent;
+}
+
+@media screen and (max-width: 789px) {
+  #registerHint {
+    color: #777350;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 24px;
+    margin-bottom: 5px;
+  }
+}
